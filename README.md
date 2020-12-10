@@ -13,23 +13,17 @@ It is written in Python using the Bokeh library and can be used in any browser.
 ## Deployment
 
 1. Clone the repository  
-   <br/>
 2. Create a conda environment (Optional)  
 `conda create -y -n inf-viz python==3.7.7`  
-<br/>
 3. Install dependencies  
 `conda install pandas`  
 `conda install -v bokeh==2.2.3`  
-<br/>
 4. Navigate to the repository  
 `cd path/to/inf-viz-grp8-w20`  
-<br/>
 5. Run the application with Bokeh  
 `bokeh serve sfbay-analytics.py`  
-<br/>
 6. Open the running app in your browser  
 `brave-browser http://localhost:5006/sfbay-analytics`  
-   <br/>
 
 ## Data
 We used the publicly available sensor-data of USGS:
