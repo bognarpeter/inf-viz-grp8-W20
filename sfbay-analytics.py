@@ -1,4 +1,5 @@
-from bokeh.io import output_notebook, show, output_file
+#!/usr/bin/env python3
+
 from bokeh.plotting import figure, ColumnDataSource
 from bokeh.tile_providers import get_provider, Vendors
 from bokeh.palettes import RdYlBu, PuOr, PiYG
@@ -11,17 +12,13 @@ from bokeh.models import (
     NumeralTickFormatter,
 )
 
-from datetime import date
-import numpy as np
-import pandas as pd
-import os
-
 from bokeh.models.widgets import Div
 from bokeh.layouts import gridplot
-from bokeh.models.widgets import DateRangeSlider
 from bokeh.io import curdoc
-from bokeh.io import show
 from bokeh.models import CustomJS, Slider, RangeSlider
+
+import pandas as pd
+import os
 
 # constants
 DATA_PATH = "data/"
