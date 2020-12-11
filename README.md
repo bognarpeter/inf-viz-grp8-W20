@@ -13,8 +13,9 @@ It is written in Python using the Bokeh library and can be used in any browser.
 ## Deployment
 
 1. Clone the repository  
-2. Create a conda environment (Optional)  
+2. Create a conda environment and activate it (Optional)  
 `conda create -y -n inf-viz python==3.7.7`  
+   `conda activate inf-viz`  
 3. Install dependencies  
 `conda install pandas`  
 `conda install -v bokeh==2.2.3`  
