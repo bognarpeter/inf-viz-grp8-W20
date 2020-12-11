@@ -4,6 +4,9 @@
 This application was created as an assignment for the course: 188.308 Informationsvisualisierung (UE 1,0) 2020W @ TU Wien
 [Link to TISS Lecture](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=3687&dsrid=241&courseNr=188308&semester=2020W)
 
+### Authors
+Dario Bogenreiter  
+Peter Bognar  
 
 ![image info](./sfbay_analytics.png)
 
