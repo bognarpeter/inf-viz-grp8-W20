@@ -83,12 +83,12 @@ def create_figure(title, tooltips):
     )
 
 
-def create_cmap(palette, field):
+def create_cmap(source, palette, field):
     return linear_cmap(
         field_name=field,
         palette=palette,
-        low=sfbay[field].min(),
-        high=sfbay[field].max(),
+        low=source.data[field].min(),
+        high=source.data[field].max(),
     )
 
 
@@ -112,7 +112,7 @@ def create_figure_wrapper(source, field_name, palette, tile, circle_size=15):
     if MONO_COLOR:
         color_mapper = palette
     else:
-        color_mapper = create_cmap(palette, field_name)
+        color_mapper = create_cmap(source, palette, field_name)
 
     # Create figure
     tooltips = [("Station Number", "@Stations")]
